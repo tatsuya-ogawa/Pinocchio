@@ -1,5 +1,6 @@
 # Makefile for Pinocchio
-CC = g++
+# CC = g++
+CC = clang
 CCFLAGS = -c -O3 -Wall -fPIC
 #CCFLAGS = -c -g3 -O0 -Wall -fPIC
 LIBS = -lm -fPIC
